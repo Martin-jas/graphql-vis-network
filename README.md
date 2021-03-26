@@ -12,4 +12,5 @@ Install:
     - `npm run dev`
     - The frontend end can be seem in http://localhost:4000
 
-    
+
+ ( I don't recommend using firefox for this. It gets really slow due to the rerendering done as we update data in the backend )
