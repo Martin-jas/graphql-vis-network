@@ -9,7 +9,9 @@ Install:
 
     - First run `npm install``
     - Install and run arangoDB 
-    - `npm run dev`
+    - The command to start the frontend project also compiles the TS for the backend so first:
+        - `npm run start` to compile and run the frontend
+        - `npm run serve` to run the backend ( if no arangoDB service is running this will receive a "connect ECONNREFUSED 127.0.0.1:8529" error )
     - The frontend end can be seem in http://localhost:4000
 
 
